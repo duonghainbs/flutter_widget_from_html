@@ -10,17 +10,41 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_widget_from_html_core: ^0.7.0
-  fwfh_cached_network_image: ^0.7.0
+  flutter_widget_from_html_core:
+    git:
+      url: git://github.com/duonghainbs/flutter_widget_from_html.git
+      ref: master
+      path: packages/core
+  fwfh_cached_network_image:
+    git:
+      url: git://github.com/duonghainbs/flutter_widget_from_html.git
+      ref: master
+      path: packages/fwfh_cached_network_image
   fwfh_chewie:
     git:
       url: git://github.com/duonghainbs/flutter_widget_from_html.git
       ref: master
       path: packages/fwfh_chewie
-  fwfh_just_audio: ^0.6.2
-  fwfh_svg: ^0.7.0
-  fwfh_url_launcher: ^0.6.1+2
-  fwfh_webview: ^0.6.1+2
+  fwfh_just_audio:
+    git:
+      url: git://github.com/duonghainbs/flutter_widget_from_html.git
+      ref: master
+      path: packages/fwfh_just_audio
+  fwfh_svg:
+    git:
+      url: git://github.com/duonghainbs/flutter_widget_from_html.git
+      ref: master
+      path: packages/fwfh_svg
+  fwfh_url_launcher:
+    git:
+      url: git://github.com/duonghainbs/flutter_widget_from_html.git
+      ref: master
+      path: packages/fwfh_url_launcher
+  fwfh_webview:
+    git:
+      url: git://github.com/duonghainbs/flutter_widget_from_html.git
+      ref: master
+      path: packages/fwfh_webview
   html: ^0.15.0
 
 dependency_overrides:
